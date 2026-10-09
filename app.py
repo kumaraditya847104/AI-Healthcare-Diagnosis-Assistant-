@@ -1,3 +1,4 @@
+```python
 import streamlit as st
 import pandas as pd
 import pickle
@@ -40,7 +41,7 @@ with st.sidebar:
     st.title("AI Healthcare")
 
     st.markdown("### 👩‍💻 Developer")
-    st.success("Princi Soni")
+    st.success("Aditya")
 
     st.markdown("---")
 
@@ -124,7 +125,7 @@ if st.button("🔍 Predict Disease"):
     st.subheader(f"🦠 {disease_name}")
 
     st.divider()
-    
+
     # ----------------------------------
     # Disease Information
     # ----------------------------------
@@ -163,7 +164,7 @@ if st.button("🔍 Predict Disease"):
 
     for symptom in selected_symptoms:
         st.write("✅", symptom)
-        
+
 # ----------------------------------
 # Footer
 # ----------------------------------
@@ -185,7 +186,7 @@ st.markdown("---")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.success("👩‍💻 Developed by: Princi Soni")
+    st.success("👩‍💻 Developed by: Aditya")
 
 with col2:
     st.info("🎓 B.Tech CSE (AI & ML)")
@@ -199,3 +200,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+```
