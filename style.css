@@ -1,0 +1,23 @@
+.main {
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.stSuccess {
+    border-radius: 10px;
+}
+
+.stInfo {
+    border-radius: 10px;
+}
+
+ 
